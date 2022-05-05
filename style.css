@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+}
+
+
 :root {
   --primary-color: hsl(170, 100%, 26%);
   --headline: hsl(210, 11%, 15%);
@@ -33,4 +38,7 @@ p {
 
 button {
   background: var(--primary-color);
+
+  border: none;
+  border-radius: 0.8rem;
 }
