@@ -9,6 +9,7 @@
   --paragraph: hsla(210, 9%, 31%, 1);
 
   --brand-beige: hsl(39, 100%, 97%);
+  --brand-light: hsl(148, 23%, 89%);
 
   font-size: 62.5%; /* 1rem = 10px */
 }
@@ -77,11 +78,11 @@ button {
 
 .stats {
   width: 32.7rem;
-  height: 47rem;
-
+  padding-block: 4rem;
   margin-inline: auto;
 
   background-color: var(--brand-beige);
+  border: 1px solid var(--brand-light);
 
   display: flex;
   flex-direction: column;
@@ -100,4 +101,6 @@ button {
 .stat p {
   margin: 0;
   color: var(--primary-color);
+  font-size: 1.6rem;
+  line-height: 150%;
 }
