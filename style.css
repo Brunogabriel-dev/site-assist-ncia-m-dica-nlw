@@ -85,4 +85,19 @@ button {
 
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  gap: 6rem;
+}
+
+.stat h3 {
+  font-size: 4.8rem;
+  color: var(--headline);
+  line-height: 130%;
+
+  margin-bottom: 0.4rem;
+}
+
+.stat p {
+  margin: 0;
+  color: var(--primary-color);
 }
