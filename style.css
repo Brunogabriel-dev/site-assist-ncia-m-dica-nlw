@@ -234,3 +234,26 @@ body.menu-expanded nav {
   line-height: 3.1rem;
 }
 
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu .button {
+  background: white;
+  border-radius: 4rem;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  color: var(--primary-color);
+
+  display: inline-block;
+  padding: 16px 32px;
+
+  margin-top: 4.8rem;
+  margin-bottom: 8rem;
+}
+
