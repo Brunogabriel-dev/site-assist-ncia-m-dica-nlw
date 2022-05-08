@@ -104,3 +104,29 @@ button {
   font-size: 1.6rem;
   line-height: 150%;
 }
+
+/*=== NAVIGATION =================================*/
+nav {
+  display: flex;
+
+  height: var(--nav-height);
+
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+nav .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav.scroll {
+  background: var(--primary-color);
+  width: 100vw;
+  position: fixed;
+  top: 0;
+}
+
